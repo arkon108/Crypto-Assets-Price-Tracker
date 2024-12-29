@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "manifest_version": 3,
   "description": "Quickly check the state of your crypto assets in chosen currency",
-  "homepage_url": "https://github.com/arkon108/Crypto-Wallet",
+  "homepage_url": "https://github.com/arkon108/Crypto-Assets-Price-Tracker",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
