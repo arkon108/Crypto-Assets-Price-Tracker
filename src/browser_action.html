@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Crypto Assets Price Tracker</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+  </head>
+  <body>
+    <div id="loader">
+      <div class="rect1"></div>
+      <div class="rect2"></div>
+      <div class="rect3"></div>
+      <div class="rect4"></div>
+      <div class="rect5"></div>
+    </div>
+
+    <div id="error" hidden>
+      <h1>⚠️</h1>
+      <hr />
+      <p></p>
+      <button>Close</button>
+    </div>
+
+    <div class="page" id="intro" hidden>
+      <h1>Crypto Assets Price Tracker</h1>
+      <hr />
+      <p>
+        To start, click the "+" button and add a type and amount of crypto that
+        you own.
+      </p>
+      <p>
+        Default prices are in USD, use the
+        <a href="options.html" target="_blank">Options</a> page to change the
+        currency used.
+      </p>
+    </div>
+
+    <div class="page" id="dash" hidden>
+      <h1></h1>
+      <hr />
+      <table></table>
+      <hr />
+    </div>
+
+    <a id="btn-options" href="options.html" target="_blank" hidden>Options</a>
+
+    <div id="add-new" hidden>
+      <button title="Add new coin holdings">+</button>
+      <form hidden>
+        <br />
+        <input type="number" placeholder="Amount" min="0" step="0.00000001" />
+        <input
+          id="cryptocurrency"
+          type="text"
+          placeholder="Cryptocurrency"
+          autocomplete="off"
+        />
+        <ul id="list-container"></ul>
+        <br /><br />
+        <button type="submit" hidden>Save</button>
+        <a id="add-cancel" href="#">Cancel</a>
+      </form>
+    </div>
+    <script src="browser_action.js"></script>
+  </body>
+</html>
