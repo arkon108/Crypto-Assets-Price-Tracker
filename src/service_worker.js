@@ -100,7 +100,7 @@ class CryptoList {
     let fsyms = coins.join(",").toUpperCase();
     let tsyms = priceIn.toUpperCase();
     return fetch(
-      `.cryptocompare.com/data/pricemulti?fsyms=${fsyms}&tsyms=${tsyms}`
+      `https:///min-api.cryptocompare.com/data/pricemulti?fsyms=${fsyms}&tsyms=${tsyms}`
     ).then((response) => response.json());
   }
 
