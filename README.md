@@ -1,6 +1,6 @@
 # Crypto Assets Price Tracker
 
-#### Video Demo: [TODO](url)
+#### Video Demo: [YouTube](https://youtu.be/V6noF3dKKBQ)
 
 ## Description 
 
